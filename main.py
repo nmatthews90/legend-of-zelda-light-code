@@ -3,12 +3,12 @@ import time
 import board
 import neopixel
 
-pixpin = board.D3
+pixpin = board.D2
 numpix = 7
 wait = 1.4  # seconds color fade duration
 
 # defaults to RGB|GRB Neopixels
-strip = neopixel.NeoPixel(pixpin, numpix, brightness=1, auto_write=False)
+strip = neopixel.NeoPixel(pixpin, numpix, brightness=0.8, auto_write=False)
 
 
 # uncomment the following 3 line for RGBW Neopixels
